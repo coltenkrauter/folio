@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Test & coverage
+coverage/
+
+# Environment
+.env
+.env.local
+
+# Folio local state (generated invoices & config live in the user's workspace)
+.folio/
+invoices/
+
+# Generated render artifacts from the committed example (keep the .json + docs image)
+examples/*.pdf
+examples/*.preview.html
+
+# Editor & OS
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Scratch
+tmp/
