@@ -1,0 +1,93 @@
+{
+  "business": {
+    "address": {
+      "city": "Bozeman",
+      "country": "United States",
+      "line1": "48 Sourdough Ridge",
+      "line2": "",
+      "postalCode": "59715",
+      "state": "MT"
+    },
+    "contactName": "",
+    "email": "hello@coltenkrauter.com",
+    "logoPath": "",
+    "name": "Colten Krauter",
+    "paymentInstructions": "",
+    "phone": "406-555-0147",
+    "taxId": "",
+    "website": "https://coltenkrauter.com"
+  },
+  "client": {
+    "address": {
+      "city": "Missoula",
+      "country": "United States",
+      "line1": "22 Ladle Lane",
+      "line2": "",
+      "postalCode": "59802",
+      "state": "MT"
+    },
+    "businessName": "Perpetual Stew Tavern",
+    "email": "bartholomew@perpetualstew.co",
+    "name": "Bartholomew Quince",
+    "phone": ""
+  },
+  "items": [
+    {
+      "category": "",
+      "description": "Workstation setup, software installation, and initial configuration",
+      "details": [],
+      "quantity": 1,
+      "serviceDate": "",
+      "taxRate": 0,
+      "unitPrice": 480
+    },
+    {
+      "category": "",
+      "description": "Network hardening and endpoint security baseline",
+      "details": [],
+      "quantity": 1,
+      "serviceDate": "",
+      "taxRate": 0,
+      "unitPrice": 360
+    },
+    {
+      "category": "Support",
+      "description": "On-site support and staff onboarding",
+      "details": [],
+      "quantity": 4,
+      "serviceDate": "",
+      "taxRate": 0,
+      "unitPrice": 95
+    }
+  ],
+  "metadata": {
+    "currency": "USD",
+    "dueDate": "2026-08-08",
+    "footerText": "",
+    "hoursWorked": "",
+    "invoiceNumber": "INV-2026-001",
+    "issueDate": "2026-07-09",
+    "notes": "Thank you for your business. Please reach out with any questions about this invoice.",
+    "paymentTerms": "Net 30",
+    "projectName": "Workstation Setup",
+    "purchaseOrderNumber": ""
+  },
+  "payment": {
+    "achInstructions": "",
+    "bankTransfer": {
+      "accountName": "Colten Krauter",
+      "accountNumber": "0001234567",
+      "bankName": "BECU (Boeing Employees Credit Union)",
+      "iban": "",
+      "routingNumber": "325081403",
+      "swift": ""
+    },
+    "checkInstructions": "",
+    "depositNote": "A 50% deposit is requested before starting new projects.",
+    "instructions": "Pay by ACH or wire — full bank details are on the next page.",
+    "paypal": "",
+    "reference": "Please include invoice INV-2026-001 with your payment.",
+    "terms": "Net 30",
+    "venmo": ""
+  }
+}

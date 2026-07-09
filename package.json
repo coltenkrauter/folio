@@ -1,0 +1,84 @@
+{
+    "name": "folio",
+    "version": "0.1.0",
+    "description": "A simple, elegant, professional CLI invoice generator.",
+    "keywords": [
+        "invoice",
+        "invoicing",
+        "cli",
+        "pdf",
+        "freelance",
+        "billing",
+        "local-first"
+    ],
+    "homepage": "https://github.com/coltenkrauter/folio#readme",
+    "bugs": {
+        "url": "https://github.com/coltenkrauter/folio/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/coltenkrauter/folio.git"
+    },
+    "license": "MIT",
+    "author": "Colten Krauter",
+    "type": "module",
+    "engines": {
+        "node": ">=18.18.0"
+    },
+    "bin": {
+        "folio": "dist/cli.js"
+    },
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsx src/cli/cli.ts",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "lint": "eslint .",
+        "prepublishOnly": "pnpm build",
+        "start": "node dist/cli.js",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@clack/prompts": "^0.7.0",
+        "cac": "^6.7.14",
+        "dotenv": "^16.4.5",
+        "picocolors": "^1.1.0",
+        "playwright-core": "^1.48.2",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.12.0",
+        "@types/node": "^22.7.4",
+        "@vitest/coverage-v8": "^2.1.2",
+        "eslint": "^9.12.0",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "^3.3.3",
+        "tsup": "^8.3.0",
+        "tsx": "^4.19.1",
+        "typescript": "^5.6.2",
+        "typescript-eslint": "^8.8.0",
+        "vitest": "^2.1.2"
+    },
+    "packageManager": "pnpm@10.33.0",
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "esbuild"
+        ]
+    }
+}

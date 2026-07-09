@@ -1,0 +1,8 @@
+dist/
+coverage/
+node_modules/
+pnpm-lock.yaml
+*.md
+
+# Tool-generated, canonical formatting (2-space JSON from folio itself)
+examples/
